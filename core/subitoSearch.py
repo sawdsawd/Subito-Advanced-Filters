@@ -2,14 +2,50 @@ import requests
 import re
 import json
 from bs4 import BeautifulSoup, Tag
-from subitoPrompt import buildUrl
+import os.path
+from pathlib import Path
 
 url = "https://www.subito.it/annunci-italia/vendita/usato/?q=tv%204k"
 
-queries = dict()
-database = "searches"
+queries = []
+database = "client\searches.json"
+
+scheme = "https://"
+baseUrl = "www.subito.it"
+
+location = [
+    "italia",
+    "abruzzo",
+    "basilicata",
+    "calabria",
+    "campania",
+    "emilia-romagna",
+    "friuli venezia giulia",
+    "lazio",
+    "liguria",
+    "lombardia",
+    "marche",
+    "molise",
+    "piemonte",
+    "puglia",
+    "sardegna",
+    "sicilia",
+    "toscana",
+    "trentino alto adige",
+    "umbria",
+    "valle d'aosta",
+    "veneto",
+]
+
+category = "/vendita/usato"
+
+def buildUrl(q):
+    query = "/?q=" + q
+
+    return (scheme + baseUrl + "/annunci-" + "italia" + category + query)
 
 def storeQueries():
+    
     with open(database, "w") as file:
         file.write(json.dumps(queries, indent = 4))
 
@@ -46,10 +82,6 @@ def runQuery(name, minPrice, maxPrice):
             if maxPrice == "null" or price == "Unknown price" or price <= int(maxPrice):
                 print("Not available")
             else:
-                queries[title] = {"title" : title, "price" : price, "location" : location, "link" : link}     
-    
-    print (queries)
-    
+                queries.append({"title" : title, "price" : price, "location" : location, "link" : link})    
+        
     storeQueries()
-
-runQuery('monitor 2k' , 0, 250)
