@@ -5,53 +5,37 @@ from bs4 import BeautifulSoup, Tag
 import os.path
 from pathlib import Path
 
-url = "https://www.subito.it/annunci-italia/vendita/usato/?q=tv%204k"
-
 queries = []
-database = "client\searches.json"
+database = "searches.json"
 
 scheme = "https://"
 baseUrl = "www.subito.it"
 
-location = [
-    "italia",
-    "abruzzo",
-    "basilicata",
-    "calabria",
-    "campania",
-    "emilia-romagna",
-    "friuli venezia giulia",
-    "lazio",
-    "liguria",
-    "lombardia",
-    "marche",
-    "molise",
-    "piemonte",
-    "puglia",
-    "sardegna",
-    "sicilia",
-    "toscana",
-    "trentino alto adige",
-    "umbria",
-    "valle d'aosta",
-    "veneto",
-]
-
-category = "/vendita/usato"
-
-def buildUrl(q):
-    query = "/?q=" + q
-
-    return (scheme + baseUrl + "/annunci-" + "italia" + category + query)
-
+#SAVE QUERIES TO JSON
 def storeQueries():
     
     with open(database, "w") as file:
         file.write(json.dumps(queries, indent = 4))
 
-def runQuery(name, minPrice, maxPrice):
+# URL BUILDER
 
-    url = buildUrl(name)
+location = ["italia", "abruzzo", "basilicata", "calabria", "campania", "emilia-romagna", 
+            "friuli venezia giulia", "lazio", "liguria", "lombardia", "marche", "molise",
+            "piemonte", "puglia", "sardegna","sicilia", "toscana", "trentino alto adige",
+            "umbria", "valle d'aosta", "veneto",
+]
+
+category = "/vendita/usato"
+
+def buildUrl(q, pageNum):
+
+    q = q.replace(" ", "+")
+    query = "/?q=" + q
+
+    return (scheme + baseUrl + "/annunci-" + location[0] + category + query + "&o=" + str(pageNum))
+
+#RUN A SINGLE QUERY
+def scanPage(url, minPrice, maxPrice):
 
     page = requests.get(url)
     soup = BeautifulSoup(page.text, 'html.parser')
@@ -78,10 +62,24 @@ def runQuery(name, minPrice, maxPrice):
             print("Unknown location for item %s" % (title))
             location = "Unknown location"
 
-        if minPrice == "null" or price == "Unknown price" or price >= int(minPrice):
-            if maxPrice == "null" or price == "Unknown price" or price <= int(maxPrice):
-                print("Not available")
-            else:
-                queries.append({"title" : title, "price" : price, "location" : location, "link" : link})    
+        if minPrice == "null" or price == "Unknown price" or price >= int(maxPrice) or maxPrice == "null" or price <= int(minPrice):
+            print("Not available")
+        else:
+            queries.append({"title" : title, "price" : price, "location" : location, "link" : link})    
         
     storeQueries()
+
+
+
+def search(query, numOfPages, minPrice, maxPrice):
+    urls = []
+
+    for num in range(1, numOfPages + 1):
+        urls.append(buildUrl(query, num))
+    
+    for url in urls:
+        scanPage(url, minPrice, maxPrice)
+
+    
+
+search("iphone 14", 2, 0, 1800)
