@@ -49,15 +49,13 @@ def scanPage(url, minPrice, maxPrice):
 
     product_list_items = soup.find_all("div", class_=re.compile(r"picture-group"))
 
-    
-
     for product in product_list_items:
-        title = product.find("h2").string
+        title = product.find("div", class_=re.compile(r"item-key-data")).find("h2").string
 
         imgSrc = product.find("div", class_=re.compile(r"item-picture")).find("img")["src"]
 
         try:
-            price = product.find("p", class_=re.compile(r"price")).contents[0]
+            price = product.find("div", class_=re.compile(r"item-key-data")).find("p", class_=re.compile(r"price")).contents[0]
             price_soup = BeautifulSoup(price, 'html.parser')
             if type(price_soup) == Tag:
                 continue
@@ -68,7 +66,7 @@ def scanPage(url, minPrice, maxPrice):
         link = product.parent.parent.get('href')
 
         try:
-            location = product.find('span',re.compile(r'town')).string + product.find('span',re.compile(r'city')).string
+            location = product.find("div", class_=re.compile(r"item-key-data")).find('span',re.compile(r'town')).string + product.find('span',re.compile(r'city')).string
         except:
             print("Unknown location for item %s" % (title))
             location = "Unknown location"
@@ -98,31 +96,9 @@ def search(query, numOfPages, region, minPrice, maxPrice):
     
     resetQueries()
 
-    for num in range(0, numOfPages):
+    for num in range(1, numOfPages + 1):
         urls.append(buildUrl(query, num, region, boolVicino))
     
     for url in urls:
         scanPage(url, minPrice, maxPrice)
-  
- 
- 
- 
- 
- 
-   
 
-def getProvince(region):
-    siglaProvinceRegione = []
-    
-    with open('core\province-italia.json') as data:
-        provinceItalia = json.load(data)   
-    
-    for item in provinceItalia:
-        if(item.get("regione") == region):
-            siglaProvinceRegione.append(item.get("sigla"))
-    
-    return siglaProvinceRegione
-    
-
-def filterByProvince(province, region):
-    provinceRegione = getProvince(region)

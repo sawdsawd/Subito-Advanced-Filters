@@ -1,233 +1,695 @@
 [
     {
-        "title": "Vasca da bagno con cristallo doccia",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/31/313036cc-81ab-46a9-a94a-35778d00984a?rule=card-desktop-new-small-1x-auto",
-        "price": 1000,
-        "location": "Cugliate-Fabiasco (VA)",
-        "link": "https://www.subito.it/arredamento-casalinghi/vasca-da-bagno-con-cristallo-doccia-varese-487663051.htm"
+        "title": "Acer e14 usato n\u00b0a112",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/b4/b4ea0670-30a4-4251-a97d-21f765f54089?rule=card-desktop-new-small-1x-auto",
+        "price": 400,
+        "location": "Castellammare di Stabia (NA)",
+        "link": "https://www.subito.it/informatica/acer-e14-usato-n-a112-napoli-487666663.htm"
     },
     {
-        "title": "Bonnieville t100 cafe race",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/34/346052ad-0084-4b8a-8b3b-3062c19015bc?rule=card-desktop-new-small-1x-auto",
-        "price": 13000,
-        "location": "Vibo Valentia (VV)",
-        "link": "https://www.subito.it/moto-e-scooter/bonnieville-t100-cafe-race-vibo-valentia-487663003.htm"
+        "title": "Matepad t310 usato n 4058",
+        "imgSrc": "https://assets.subito.it/static/icons/categories/10.svg",
+        "price": 80,
+        "location": "Castellammare di Stabia (NA)",
+        "link": "https://www.subito.it/informatica/matepad-t310-usato-n-4058-napoli-487666626.htm"
     },
     {
-        "title": "Mercruiser 4.3 LX completo piede",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/cc/cc8b1964-8cef-49ae-8e40-c8fecf21faac?rule=card-desktop-new-small-1x-auto",
-        "price": 500,
-        "location": "Imperia (IM)",
-        "link": "https://www.subito.it/nautica/mercruiser-4-3-lx-completo-piede-imperia-487662996.htm"
+        "title": "Samsung tab a6 usato n 1380",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/37/37b0feae-4918-430d-b048-a13b1bf59d5e?rule=card-desktop-new-small-1x-auto",
+        "price": 100,
+        "location": "Castellammare di Stabia (NA)",
+        "link": "https://www.subito.it/informatica/samsung-tab-a6-usato-n-1380-napoli-487666590.htm"
     },
     {
-        "title": "Fari anteriori Alfa 75 NUOVI",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/15/1510aed4-9e36-4fe2-a97e-c6f02f86a75c?rule=card-desktop-new-small-1x-auto",
-        "price": "Unknown price",
-        "location": "Bergamo (BG)",
-        "link": "https://www.subito.it/accessori-auto/fari-anteriori-alfa-75-nuovi-bergamo-487662899.htm"
+        "title": "LENOVO b50 USATO N\u00b0A111",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/a9/a9a0c1e2-aaff-4837-a941-aa3f30edd187?rule=card-desktop-new-small-1x-auto",
+        "price": 200,
+        "location": "Castellammare di Stabia (NA)",
+        "link": "https://www.subito.it/informatica/lenovo-b50-usato-n-a111-napoli-487666575.htm"
     },
     {
-        "title": "Nissan Qashqai 1.6 dCi N-Connecta - 2018",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/f6/f6325112-374a-4fd1-882d-b236ae118ae3?rule=card-desktop-new-small-1x-auto",
-        "price": 15500,
-        "location": "Andria (BT)",
-        "link": "https://www.subito.it/auto/nissan-qashqai-1-6-dci-n-connecta-2018-barletta-andria-trani-487662873.htm"
+        "title": "Samsung tab a6 usato n 1357",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/12/12454b7f-6777-43db-922b-79d5d3915752?rule=card-desktop-new-small-1x-auto",
+        "price": 100,
+        "location": "Castellammare di Stabia (NA)",
+        "link": "https://www.subito.it/informatica/samsung-tab-a6-usato-n-1357-napoli-487666522.htm"
     },
     {
-        "title": "Renault Scenic dCi 8V 110 CV Energy Zen",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/e9/e9b85cf4-46a6-4e14-850d-6186e22cf3c7?rule=card-desktop-new-small-1x-auto",
-        "price": 16900,
-        "location": "Modugno (BA)",
-        "link": "https://www.subito.it/auto/renault-scenic-dci-8v-110-cv-energy-zen-bari-461266475.htm"
+        "title": "HYUNDAI Kona EV 39 kWh XTech City",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/d1/d1b3182b-a61a-46d3-8a29-1edaa1da74f8?rule=card-desktop-new-small-1x-auto",
+        "price": 28300,
+        "location": "Santa Maria di Licodia (CT)",
+        "link": "https://www.subito.it/auto/hyundai-kona-ev-39-kwh-xtech-city-catania-473983297.htm"
     },
     {
-        "title": "Land Rover Discovery Sport 2.0 TD4 AWD 150CV ...",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/80/80d2f784-0272-4983-9179-8363ffa31b7d?rule=card-desktop-new-small-1x-auto",
-        "price": 24780,
-        "location": "Robecco sul Naviglio (MI)",
-        "link": "https://www.subito.it/auto/land-rover-discovery-sport-2-0-td4-awd-150cv-milano-478894256.htm"
+        "title": "Opel Crossland X 1.5 ECOTEC D 120 CV Start&Stop au",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/5e/5ec718c9-8e37-4329-bc76-32c4e5ecc93a?rule=card-desktop-new-small-1x-auto",
+        "price": 13500,
+        "location": "Massafra (TA)",
+        "link": "https://www.subito.it/auto/opel-crossland-x-1-5-ecotec-d-120-cv-start-stop-au-taranto-481713924.htm"
     },
     {
-        "title": "Solitario engagement in oro",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/f6/f6b1fbe6-3b0f-4442-b059-ede3bf1ee8ad?rule=card-desktop-new-small-1x-auto",
-        "price": 690,
-        "location": "Bari (BA)",
-        "link": "https://www.subito.it/abbigliamento-accessori/solitario-engagement-in-oro-bari-446207633.htm"
+        "title": "Villetta bifamiliare - Aci Castello",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/1d/1d0a055b-0fb9-4382-9d04-4c0732e3ef62?rule=card-desktop-new-small-1x-auto",
+        "price": 990000,
+        "location": "Aci Castello (CT)",
+        "link": "https://www.subito.it/ville-singole-e-a-schiera/villetta-bifamiliare-aci-castello-catania-478155372.htm"
     },
     {
-        "title": "Kia Picanto 1.0 12V 5 porte GT Line - 2019",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/2a/2a8f0120-8369-40a0-aecc-a6aff3f7d5ba?rule=card-desktop-new-small-1x-auto",
-        "price": 12800,
-        "location": "Andria (BT)",
-        "link": "https://www.subito.it/auto/kia-picanto-1-0-12v-5-porte-gt-line-2019-barletta-andria-trani-487662872.htm"
-    },
-    {
-        "title": "FIAT STRADA - 2014 1.3 MTJ TREKKING CABINA CORTA",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/41/41e9d2b9-faf4-4371-8de8-1cdde821c304?rule=card-desktop-new-small-1x-auto",
-        "price": 12800,
-        "location": "Andria (BT)",
-        "link": "https://www.subito.it/auto/fiat-strada-2014-1-3-mtj-trekking-cabina-corta-barletta-andria-trani-487662870.htm"
-    },
-    {
-        "title": "FIAT STRADA 2014 1.3 MTJ TREKKING CABINA LUNGA",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/c2/c2f522a5-d01f-4ced-a04f-058d258b5744?rule=card-desktop-new-small-1x-auto",
-        "price": 12300,
-        "location": "Andria (BT)",
-        "link": "https://www.subito.it/auto/fiat-strada-2014-1-3-mtj-trekking-cabina-lunga-barletta-andria-trani-487662861.htm"
-    },
-    {
-        "title": "Alfa Romeo 147 1.9 jtdm 120cv",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/5e/5e77fe42-be5a-41da-98e6-33c97d2e4e49?rule=card-desktop-new-small-1x-auto",
-        "price": 2200,
-        "location": "Bucine (AR)",
-        "link": "https://www.subito.it/auto/alfa-romeo-147-1-9-jtdm-120cv-arezzo-487662854.htm"
-    },
-    {
-        "title": "Racchetta da tennis Head Radical Pro Graphene XT",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/0e/0e6ce684-bc8d-43ee-b3b9-5ff273a7638b?rule=card-desktop-new-small-1x-auto",
-        "price": 40,
-        "location": "Roma (RM)",
-        "link": "https://www.subito.it/sport/racchetta-da-tennis-head-radical-pro-graphene-xt-roma-487662633.htm"
-    },
-    {
-        "title": "AUDI A3 1\u00aa serie - 1997",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/ed/ed201909-881b-4864-b4e4-9548062c2c40?rule=card-desktop-new-small-1x-auto",
-        "price": 2500,
-        "location": "Pescara (PE)",
-        "link": "https://www.subito.it/auto/audi-a3-1-serie-1997-pescara-487662613.htm"
-    },
-    {
-        "title": "Piumino impermeabile bimba 24 mesi",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/d7/d726fc24-3fe2-467b-ba8c-f622c6636d0f?rule=card-desktop-new-small-1x-auto",
-        "price": 10,
-        "location": "Arzergrande (PD)",
-        "link": "https://www.subito.it/bambini-giocattoli/piumino-impermeabile-bimba-24-mesi-padova-487662536.htm"
-    },
-    {
-        "title": "Abarth 500 1.4 Turbo T-Jet",
-        "imgSrc": "https://assets.subito.it/static/icons/categories/2.svg",
-        "price": 12499,
-        "location": "Casalnuovo di Napoli (NA)",
-        "link": "https://www.subito.it/auto/abarth-500-1-4-turbo-t-jet-napoli-487662517.htm"
-    },
-    {
-        "title": "Abarth 500 1.4 Turbo T-Jet",
-        "imgSrc": "https://assets.subito.it/static/icons/categories/2.svg",
-        "price": 12499,
-        "location": "Casalnuovo di Napoli (NA)",
-        "link": "https://www.subito.it/auto/abarth-500-1-4-turbo-t-jet-napoli-487662516.htm"
-    },
-    {
-        "title": "Ford FIESTA 1.4 TDCI GHIA 5 P - LOW COST 1.199",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/ab/ab25eafc-79c5-4550-afc6-cbc00c7ae284?rule=card-desktop-new-small-1x-auto",
-        "price": 1199,
-        "location": "Acri (CS)",
-        "link": "https://www.subito.it/auto/ford-fiesta-1-4-tdci-ghia-5-p-low-cost-1-199-cosenza-487662478.htm"
-    },
-    {
-        "title": "ANIMATORI E BAGNINI per villaggi turistici",
-        "imgSrc": "https://assets.subito.it/static/icons/categories/26.svg",
-        "price": "Unknown price",
-        "location": "Bari (BA)",
-        "link": "https://www.subito.it/offerte-lavoro/animatori-e-bagnini-per-villaggi-turistici-bari-487661161.htm"
-    },
-    {
-        "title": "Fiat punto 55 sx vett d'epoca no bollo xsempre gpl",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/c5/c51ccfe9-6e08-4c9f-ac7c-496258db0523?rule=card-desktop-new-small-1x-auto",
-        "price": 4000,
-        "location": "Genova (GE)",
-        "link": "https://www.subito.it/auto/fiat-punto-55-sx-vett-d-epoca-no-bollo-xsempre-gpl-genova-487662452.htm"
-    },
-    {
-        "title": "Fiat Multipla 1.9 jtd",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/bc/bce0f083-6bec-4f8d-8d93-ad9dbc6e97ad?rule=card-desktop-new-small-1x-auto",
-        "price": 3200,
-        "location": "Chivasso (TO)",
-        "link": "https://www.subito.it/auto/fiat-multipla-1-9-jtd-torino-487662345.htm"
-    },
-    {
-        "title": "FDD 1.44 Floppy USB marca HP",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/74/744f0beb-ce13-4591-9599-5cd49b14de69?rule=card-desktop-new-small-1x-auto",
-        "price": 10,
-        "location": "Torino (TO)",
-        "link": "https://www.subito.it/informatica/fdd-1-44-floppy-usb-marca-hp-torino-487662229.htm"
-    },
-    {
-        "title": "Idromassaggiatore plantare",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/42/4291447b-62fc-41e1-b5c4-e596ff081101?rule=card-desktop-new-small-1x-auto",
-        "price": 10,
-        "location": "Nichelino (TO)",
-        "link": "https://www.subito.it/elettrodomestici/idromassaggiatore-plantare-torino-248503474.htm"
-    },
-    {
-        "title": "Stampo da cucina per ravioli",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/7d/7d4c79e0-b1e7-4829-a8dd-768ec36f7fa5?rule=card-desktop-new-small-1x-auto",
-        "price": 20,
-        "location": "Nichelino (TO)",
-        "link": "https://www.subito.it/arredamento-casalinghi/stampo-da-cucina-per-ravioli-torino-248489012.htm"
-    },
-    {
-        "title": "OPEL Corsa 4\u00aa serie - 2012",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/4d/4d0f8119-0c80-44b9-9324-d5023c0ca63f?rule=card-desktop-new-small-1x-auto",
-        "price": 5500,
-        "location": "Roma (RM)",
-        "link": "https://www.subito.it/auto/opel-corsa-4-serie-2012-roma-486349218.htm"
-    },
-    {
-        "title": "Aprilia MX Super Motard 50 - 2003",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/f3/f354bcc4-7878-483f-b1ce-27fd81fc66df?rule=card-desktop-new-small-1x-auto",
-        "price": 1500,
-        "location": "Grezzana (VR)",
-        "link": "https://www.subito.it/moto-e-scooter/aprilia-mx-super-motard-50-2003-verona-487662208.htm"
-    },
-    {
-        "title": "Tutto fare",
+        "title": "Designer di mobili.Disegnatore",
         "imgSrc": "https://assets.subito.it/static/icons/categories/42.svg",
         "price": "Unknown price",
+        "location": "Pescara (PE)",
+        "link": "https://www.subito.it/cerco-lavoro/designer-di-mobili-disegnatore-pescara-487663333.htm"
+    },
+    {
+        "title": "Jack Daniel's Inaugural Theodore Roosvelt Bottle",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/a2/a278e103-2271-4fc2-b8db-9eb89f221f8d?rule=card-desktop-new-small-1x-auto",
+        "price": 750,
+        "location": "Venezia (VE)",
+        "link": "https://www.subito.it/hobby-collezionismo/jack-daniel-s-inaugural-theodore-roosvelt-bottle-venezia-487666456.htm"
+    },
+    {
+        "title": "Colf,pulizie domestiche",
+        "imgSrc": "https://assets.subito.it/static/icons/categories/42.svg",
+        "price": "Unknown price",
+        "location": "Catania (CT)",
+        "link": "https://www.subito.it/cerco-lavoro/colf-pulizie-domestiche-catania-487662692.htm"
+    },
+    {
+        "title": "Calcolatrice scientifica Casio FX991EX",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/f0/f0ec6120-1023-4133-889d-26e87941b24f?rule=card-desktop-new-small-1x-auto",
+        "price": 10,
+        "location": "Calcinaia (PI)",
+        "link": "https://www.subito.it/informatica/calcolatrice-scientifica-casio-fx991ex-pisa-487666444.htm"
+    },
+    {
+        "title": "Canestro",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/0d/0d28e3c8-a2b0-43e8-85d1-b6c16616107a?rule=card-desktop-new-small-1x-auto",
+        "price": 15,
+        "location": "Ancona (AN)",
+        "link": "https://www.subito.it/sport/canestro-ancona-487666423.htm"
+    },
+    {
+        "title": "Micro telecamera spia Wi-Fi indossabile",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/ac/ac9e5b37-58dc-4c83-baac-85adae2dba1a?rule=card-desktop-new-small-1x-auto",
+        "price": 20,
+        "location": "Lecco (LC)",
+        "link": "https://www.subito.it/audio-video/micro-telecamera-spia-wi-fi-indossabile-lecco-487666348.htm"
+    },
+    {
+        "title": "I classici nostri contemporanei 5.1",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/42/42672235-c903-4c1d-9beb-2a70e1a2bdc3?rule=card-desktop-new-small-1x-auto",
+        "price": 4,
+        "location": "Caluso (TO)",
+        "link": "https://www.subito.it/libri-riviste/i-classici-nostri-contemporanei-5-1-torino-396853510.htm"
+    },
+    {
+        "title": "LAND ROVER Freelander 2\u00aa serie - 2007",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/78/78ed2707-60a3-41ca-8a71-0d51eb2e387c?rule=card-desktop-new-small-1x-auto",
+        "price": 6500,
         "location": "Roma (RM)",
-        "link": "https://www.subito.it/cerco-lavoro/tutto-fare-roma-487662121.htm"
+        "link": "https://www.subito.it/auto/land-rover-freelander-2-serie-2007-roma-487549547.htm"
     },
     {
-        "title": "Slk 200 kompressor evo",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/e4/e4b250f8-f335-45ca-8682-c886ffffca42?rule=card-desktop-new-small-1x-auto",
-        "price": 7499,
-        "location": "Chieti (CH)",
-        "link": "https://www.subito.it/auto/slk-200-kompressor-evo-chieti-487662000.htm"
+        "title": "Msi b550 + Ryzen 7 3700x + Corsair Vengeance 16GB\"",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/99/9954855f-2a02-4ff8-9256-71697e9de51c?rule=card-desktop-new-small-1x-auto",
+        "price": 420,
+        "location": "Lecco (LC)",
+        "link": "https://www.subito.it/informatica/msi-b550-ryzen-7-3700x-corsair-vengeance-16gb-lecco-487539178.htm"
     },
     {
-        "title": "VOLKSWAGEN Polo 5\u00aa serie - 2017",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/39/3927acc8-eeb6-4caa-adc2-9f6119984234?rule=card-desktop-new-small-1x-auto",
-        "price": 17900,
-        "location": "Valsamoggia (BO)",
-        "link": "https://www.subito.it/auto/volkswagen-polo-5-serie-2017-bologna-487661308.htm"
+        "title": "Casa in campagna contrada Culma Racalmuto",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/74/744cc427-e2b2-4b40-85cc-ee602077397e?rule=card-desktop-new-small-1x-auto",
+        "price": 110000,
+        "location": "Racalmuto (AG)",
+        "link": "https://www.subito.it/ville-singole-e-a-schiera/casa-in-campagna-contrada-culma-racalmuto-agrigento-433460258.htm"
     },
     {
-        "title": "Audi Q2 1.6 Business 116 CV. Full",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/40/4035b05f-8d96-4229-8c8e-7936fc6b4eb5?rule=card-desktop-new-small-1x-auto",
-        "price": 21500,
-        "location": "Rocca d'Evandro (CE)",
-        "link": "https://www.subito.it/auto/audi-q2-1-6-business-116-cv-full-caserta-487660949.htm"
+        "title": "Crossover",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/ea/ea52f6de-134d-449c-b919-28cb330b6f55?rule=card-desktop-new-small-1x-auto",
+        "price": 150,
+        "location": "Roma (RM)",
+        "link": "https://www.subito.it/audio-video/crossover-roma-487666298.htm"
     },
     {
-        "title": "Renault Captur 1.5 dCi 90 CV Start&Stop Project Ru",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/27/27275c89-f6ac-475b-ac7f-1fb8502390dc?rule=card-desktop-new-small-1x-auto",
-        "price": 13500,
-        "location": "Andria (BT)",
-        "link": "https://www.subito.it/auto/renault-captur-1-5-dci-90-cv-start-stop-project-ru-barletta-andria-trani-487661862.htm"
+        "title": "Libro",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/7e/7eeba21b-7028-4b06-8d3d-8d7eeda0ae64?rule=card-desktop-new-small-1x-auto",
+        "price": 9,
+        "location": "Albenga (SV)",
+        "link": "https://www.subito.it/libri-riviste/libro-savona-487666161.htm"
     },
     {
-        "title": "Seat Arona 1.6 TDI 95 CV XCELLENCE - 2018",
-        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/cb/cb2c3444-c893-4f79-9d1e-3ca3ebf434e3?rule=card-desktop-new-small-1x-auto",
-        "price": 16500,
-        "location": "Andria (BT)",
-        "link": "https://www.subito.it/auto/seat-arona-1-6-tdi-95-cv-xcellence-2018-barletta-andria-trani-487661853.htm"
+        "title": "Lotto gradate",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/00/00fd1840-16d5-4494-8d24-7161e5931389?rule=card-desktop-new-small-1x-auto",
+        "price": "Unknown price",
+        "location": "Milano (MI)",
+        "link": "https://www.subito.it/hobby-collezionismo/lotto-gradate-milano-487666122.htm"
     },
     {
-        "title": "OPEL Corsa 6\u00aa serie - 2020",
-        "imgSrc": "https://assets.subito.it/static/icons/categories/2.svg",
-        "price": 18000,
+        "title": "Iphone 12 usato n 3503",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/ed/edb3d24d-7131-48d3-9037-7e3338a3ae56?rule=card-desktop-new-small-1x-auto",
+        "price": 500,
+        "location": "Castellammare di Stabia (NA)",
+        "link": "https://www.subito.it/telefonia/iphone-12-usato-n-3503-napoli-487666103.htm"
+    },
+    {
+        "title": "Case BeQuite + Alimentatore Straight Power",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/14/14fed6e2-6aa5-44fc-9773-32fb47cdb215?rule=card-desktop-new-small-1x-auto",
+        "price": 100,
+        "location": "Saronno (VA)",
+        "link": "https://www.subito.it/informatica/case-bequite-alimentatore-straight-power-varese-487666097.htm"
+    },
+    {
+        "title": "Sneakers Trainer Louis Vuitton",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/0f/0f4a0f66-81a4-46dc-bd43-336880aa966c?rule=card-desktop-new-small-1x-auto",
+        "price": 800,
+        "location": "Prato (PO)",
+        "link": "https://www.subito.it/abbigliamento-accessori/sneakers-trainer-louis-vuitton-prato-487666094.htm"
+    },
+    {
+        "title": "Una casa per Biscotto",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/33/33cc3500-0096-49f3-8208-95f649defb4b?rule=card-desktop-new-small-1x-auto",
+        "price": "Unknown price",
+        "location": "Brescia (BS)",
+        "link": "https://www.subito.it/animali/una-casa-per-biscotto-brescia-487666077.htm"
+    },
+    {
+        "title": "Buon Viaggio Beghelli Lampada LED emergenza x Auto",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/75/7506176d-e4e4-4ff9-a681-4407c82777e2?rule=card-desktop-new-small-1x-auto",
+        "price": 19,
+        "location": "Roma (RM)",
+        "link": "https://www.subito.it/accessori-auto/buon-viaggio-beghelli-lampada-led-emergenza-x-auto-roma-434572737.htm"
+    },
+    {
+        "title": "Casa autonoma via Cairoli Racalmuto",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/3e/3e42cf30-50dc-46b1-ba3a-aa2d1f3ddff6?rule=card-desktop-new-small-1x-auto",
+        "price": 110000,
+        "location": "Racalmuto (AG)",
+        "link": "https://www.subito.it/appartamenti/casa-autonoma-via-cairoli-racalmuto-agrigento-433462955.htm"
+    },
+    {
+        "title": "VILLA A SCHIERA, Pianiga",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/c8/c81c6593-0323-49c2-a1f4-e328790f3631?rule=card-desktop-new-small-1x-auto",
+        "price": 180000,
+        "location": "Noale (VE)",
+        "link": "https://www.subito.it/ville-singole-e-a-schiera/villa-a-schiera-pianiga-venezia-487665838.htm"
+    },
+    {
+        "title": "Manico Fender Jazz Acero Tostato",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/19/19a682a0-6f62-4a1b-bc54-858c9774853e?rule=card-desktop-new-small-1x-auto",
+        "price": 250,
+        "location": "Roma (RM)",
+        "link": "https://www.subito.it/strumenti-musicali/manico-fender-jazz-acero-tostato-roma-487665689.htm"
+    },
+    {
+        "title": "Seghetto alternativo AEG BST18X 18V 4Ah",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/2f/2fb69b6e-7844-4c18-b81b-d286af12bf93?rule=card-desktop-new-small-1x-auto",
+        "price": 220,
+        "location": "Mira (VE)",
+        "link": "https://www.subito.it/giardino-fai-da-te/seghetto-alternativo-aeg-bst18x-18v-4ah-venezia-487665667.htm"
+    },
+    {
+        "title": "HP INTEL i5 SSD 1TB RAM 16GB WIN 11 OFFICE GARANZI",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/1e/1ea7e59d-57fd-4931-84b5-f3d0346ba0cf?rule=card-desktop-new-small-1x-auto",
+        "price": 370,
+        "location": "Leverano (LE)",
+        "link": "https://www.subito.it/informatica/hp-intel-i5-ssd-1tb-ram-16gb-win-11-office-garanzi-lecce-487659832.htm"
+    },
+    {
+        "title": "HP 17,3\" INTEL i3 SSD 1TB RAM 8GB WIN 11 GARANZIA",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/12/127937ce-68e3-4eae-858b-d5f118fa8e75?rule=card-desktop-new-small-1x-auto",
+        "price": 270,
+        "location": "Leverano (LE)",
+        "link": "https://www.subito.it/informatica/hp-17-3-intel-i3-ssd-1tb-ram-8gb-win-11-garanzia-lecce-487658828.htm"
+    },
+    {
+        "title": "Bici",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/e8/e8353374-b6cb-415e-8cc8-0c6d4114bf7c?rule=card-desktop-new-small-1x-auto",
+        "price": 200,
+        "location": "San Benedetto del Tronto (AP)",
+        "link": "https://www.subito.it/biciclette/bici-ascoli-piceno-487665526.htm"
+    },
+    {
+        "title": "Stereo",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/ce/ce098c83-ecf6-4758-b404-090730e3cfbd?rule=card-desktop-new-small-1x-auto",
+        "price": 25,
+        "location": "Cardano al Campo (VA)",
+        "link": "https://www.subito.it/audio-video/stereo-varese-416285280.htm"
+    },
+    {
+        "title": "Macbook pro 16\" mod 2020 - i9, 64 GB ram, gpu AMD",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/f0/f0a9e67f-7f3e-49c8-9caa-ef45c77dd105?rule=card-desktop-new-small-1x-auto",
+        "price": 2000,
+        "location": "Sapri (SA)",
+        "link": "https://www.subito.it/informatica/macbook-pro-16-mod-2020-i9-64-gb-ram-gpu-amd-salerno-482476185.htm"
+    },
+    {
+        "title": "Calcolatrice casio",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/1a/1aa4be52-e3d9-42d5-92c3-e7351e78a28d?rule=card-desktop-new-small-1x-auto",
+        "price": 49,
+        "location": "Cassano Magnago (VA)",
+        "link": "https://www.subito.it/informatica/calcolatrice-casio-varese-416545289.htm"
+    },
+    {
+        "title": "Set giardino in rattan",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/15/15ace2dc-0aa5-43a0-8dc7-113068aad450?rule=card-desktop-new-small-1x-auto",
+        "price": 350,
+        "location": "Varese (VA)",
+        "link": "https://www.subito.it/giardino-fai-da-te/set-giardino-in-rattan-varese-303585858.htm"
+    },
+    {
+        "title": "Nikon F601-QD + AF Nikkor 35-80mm f4-5,6D",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/03/03ee9c8f-06b0-4e1c-96d2-b1e3a9b0be26?rule=card-desktop-new-small-1x-auto",
+        "price": 160,
+        "location": "Bagnacavallo (RA)",
+        "link": "https://www.subito.it/fotografia/nikon-f601-qd-af-nikkor-35-80mm-f4-5-6d-ravenna-487665466.htm"
+    },
+    {
+        "title": "Fiat 500X 1.3 MultiJet 95 CV Lounge",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/14/145753f6-a024-42fe-9440-a3b69118387a?rule=card-desktop-new-small-1x-auto",
+        "price": 16900,
+        "location": "Napoli (NA)",
+        "link": "https://www.subito.it/auto/fiat-500x-1-3-multijet-95-cv-lounge-napoli-486828544.htm"
+    },
+    {
+        "title": "Vetrina antiquariato del 1800 perfetta",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/b7/b72bdc3e-5cad-45f3-bd04-90d6699868e7?rule=card-desktop-new-small-1x-auto",
+        "price": 390,
+        "location": "Firenze (FI)",
+        "link": "https://www.subito.it/arredamento-casalinghi/vetrina-antiquariato-del-1800-perfetta-firenze-470702656.htm"
+    },
+    {
+        "title": "Audi Q3 35 2.0 tdi 150cv",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/a3/a3ca2db0-11cb-429f-be38-e3d06683d716?rule=card-desktop-new-small-1x-auto",
+        "price": 34900,
+        "location": "Firenze (FI)",
+        "link": "https://www.subito.it/auto/audi-q3-35-2-0-tdi-150cv-firenze-487281616.htm"
+    },
+    {
+        "title": "Commessa, banconista ecc",
+        "imgSrc": "https://assets.subito.it/static/icons/categories/42.svg",
+        "price": "Unknown price",
         "location": "Palermo (PA)",
-        "link": "https://www.subito.it/auto/opel-corsa-6-serie-2020-palermo-487657132.htm"
+        "link": "https://www.subito.it/cerco-lavoro/commessa-banconista-ecc-palermo-487665396.htm"
+    },
+    {
+        "title": "Fiat Bravo 1.4 DYNAMIC GPL Per Neopatentati",
+        "imgSrc": "https://assets.subito.it/static/icons/categories/2.svg",
+        "price": 5900,
+        "location": "Rimini (RN)",
+        "link": "https://www.subito.it/auto/fiat-bravo-1-4-dynamic-gpl-per-neopatentati-rimini-487665390.htm"
+    },
+    {
+        "title": "Chevrolet Aveo 1.2 Benz/Gpl 2029",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/53/53bbbcd2-5758-4e85-bf7d-b95719214d07?rule=card-desktop-new-small-1x-auto",
+        "price": 1790,
+        "location": "Torino (TO)",
+        "link": "https://www.subito.it/auto/chevrolet-aveo-1-2-benz-gpl-2029-torino-487665338.htm"
+    },
+    {
+        "title": "Enders Wc Chimico Portatile Deluxe Campeggio - Toi",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/40/40cd415d-acf1-4117-bd68-bf806e8c1957?rule=card-desktop-new-small-1x-auto",
+        "price": 29,
+        "location": "Sesto Fiorentino (FI)",
+        "link": "https://www.subito.it/annunci-vari/enders-wc-chimico-portatile-deluxe-campeggio-toi-firenze-487662372.htm"
+    },
+    {
+        "title": "Divano 3 posti Etienne",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/ee/eeffaee8-60c6-4692-bc62-146cda65dbb1?rule=card-desktop-new-small-1x-auto",
+        "price": 450,
+        "location": "Pistoia (PT)",
+        "link": "https://www.subito.it/arredamento-casalinghi/divano-3-posti-etienne-pistoia-487665265.htm"
+    },
+    {
+        "title": "Chicco",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/cf/cfc10f90-25e7-43b0-80b2-7e3fc02b1fc8?rule=card-desktop-new-small-1x-auto",
+        "price": 40,
+        "location": "Bergamo (BG)",
+        "link": "https://www.subito.it/bambini-giocattoli/chicco-bergamo-487665255.htm"
+    },
+    {
+        "title": "Scrivania da casa o ufficio ritiro 19/04",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/bb/bb3be593-14bb-4d03-bef4-85362d4ccac3?rule=card-desktop-new-small-1x-auto",
+        "price": 20,
+        "location": "Mariano Comense (CO)",
+        "link": "https://www.subito.it/arredamento-casalinghi/scrivania-da-casa-o-ufficio-ritiro-19-04-como-487665181.htm"
+    },
+    {
+        "title": "Vecchi rubinetti in ottone , 12 pezzi",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/c5/c5fd82db-2595-4b40-9cb3-5c9506145612?rule=card-desktop-new-small-1x-auto",
+        "price": 50,
+        "location": "Castelraimondo (MC)",
+        "link": "https://www.subito.it/arredamento-casalinghi/vecchi-rubinetti-in-ottone-12-pezzi-macerata-434234750.htm"
+    },
+    {
+        "title": "AUDI A5 3.0 TDI 245 cv-CABRIO-4X4-SLINE-PERMUTABIL",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/7b/7b977995-cbd9-4d65-b914-aa09a536d417?rule=card-desktop-new-small-1x-auto",
+        "price": 18900,
+        "location": "Genova (GE)",
+        "link": "https://www.subito.it/auto/audi-a5-3-0-tdi-245-cv-cabrio-4x4-sline-permutabil-genova-486669432.htm"
+    },
+    {
+        "title": "Casa semindipendente con giardino",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/80/80ea3e28-aa2d-40b3-8a3c-1db93bd17900?rule=card-desktop-new-small-1x-auto",
+        "price": 55000,
+        "location": "Pozzol Groppo (AL)",
+        "link": "https://www.subito.it/ville-singole-e-a-schiera/casa-semindipendente-con-giardino-alessandria-475967257.htm"
+    },
+    {
+        "title": "Forno indesit",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/b7/b7f9762e-b323-412a-8879-f4c90c862ca8?rule=card-desktop-new-small-1x-auto",
+        "price": 180,
+        "location": "Macerata (MC)",
+        "link": "https://www.subito.it/elettrodomestici/forno-indesit-macerata-487665132.htm"
+    },
+    {
+        "title": "Xbox one x usata",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/86/86d3805d-f3d3-4233-94dd-8a5d8e9a3058?rule=card-desktop-new-small-1x-auto",
+        "price": 300,
+        "location": "Castellammare di Stabia (NA)",
+        "link": "https://www.subito.it/videogiochi/xbox-one-x-usata-napoli-487665002.htm"
+    },
+    {
+        "title": "Scaletta per fai da te",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/d5/d5185061-9e0e-4830-b6e6-795862b6d568?rule=card-desktop-new-small-1x-auto",
+        "price": 28,
+        "location": "Roma (RM)",
+        "link": "https://www.subito.it/giardino-fai-da-te/scaletta-per-fai-da-te-roma-487664987.htm"
+    },
+    {
+        "title": "Giovani Macropodus",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/74/747e1390-c2ad-4f27-a013-04aa94d29ced?rule=card-desktop-new-small-1x-auto",
+        "price": 3,
+        "location": "Sant'Antonio Abate (NA)",
+        "link": "https://www.subito.it/animali/giovani-macropodus-napoli-487664851.htm"
+    },
+    {
+        "title": "Sony play station 5 nuova",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/0b/0bec575f-5307-4ded-9df2-a015ab922a25?rule=card-desktop-new-small-1x-auto",
+        "price": 650,
+        "location": "Castellammare di Stabia (NA)",
+        "link": "https://www.subito.it/videogiochi/sony-play-station-5-nuova-napoli-487664932.htm"
+    },
+    {
+        "title": "Com\u00f2 per camera da letto",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/17/17f41c41-a5ab-481c-86c0-417f7565fbc5?rule=card-desktop-new-small-1x-auto",
+        "price": 50,
+        "location": "Crevalcore (BO)",
+        "link": "https://www.subito.it/arredamento-casalinghi/como-per-camera-da-letto-bologna-487664760.htm"
+    },
+    {
+        "title": "Accoppiamento",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/ce/cee1471b-3336-4fae-ba1e-7355d9dcce32?rule=card-desktop-new-small-1x-auto",
+        "price": "Unknown price",
+        "location": "Romano di Lombardia (BG)",
+        "link": "https://www.subito.it/animali/accoppiamento-bergamo-434125628.htm"
+    },
+    {
+        "title": "Samebike Bicicletta pedalata assistita",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/38/3845e370-d19d-4537-8f62-46977d99e7ec?rule=card-desktop-new-small-1x-auto",
+        "price": 720,
+        "location": "Roma (RM)",
+        "link": "https://www.subito.it/sport/samebike-bicicletta-pedalata-assistita-roma-486668805.htm"
+    },
+    {
+        "title": "PC da Gaming",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/a3/a3ce9a2c-5ebc-4517-980d-3c1df1cc7862?rule=card-desktop-new-small-1x-auto",
+        "price": 800,
+        "location": "Gambara (BS)",
+        "link": "https://www.subito.it/informatica/pc-da-gaming-brescia-449181264.htm"
+    },
+    {
+        "title": "Lo strano caso del dottor Jekyll e Mr Hyde",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/de/deec7908-0b1e-4e16-90d4-ab71a80d86e0?rule=card-desktop-new-small-1x-auto",
+        "price": 2,
+        "location": "Napoli (NA)",
+        "link": "https://www.subito.it/libri-riviste/lo-strano-caso-del-dottor-jekyll-e-mr-hyde-napoli-398066060.htm"
+    },
+    {
+        "title": "Casa Cielo terra",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/af/af82e9d4-5a3f-47d9-876d-b6ca3d19d8b1?rule=card-desktop-new-small-1x-auto",
+        "price": 33000,
+        "location": "Otricoli (TR)",
+        "link": "https://www.subito.it/ville-singole-e-a-schiera/casa-cielo-terra-terni-353303607.htm"
+    },
+    {
+        "title": "Abitazione Semindipendente Narni",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/c8/c89be1bc-417d-436b-bc81-7d875d9841db?rule=card-desktop-new-small-1x-auto",
+        "price": 33000,
+        "location": "Otricoli (TR)",
+        "link": "https://www.subito.it/terreni-e-rustici/abitazione-semindipendente-narni-terni-338168672.htm"
+    },
+    {
+        "title": "Cinturino Seiko waffle",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/cb/cb85040b-cf9b-4f01-9257-5002c3a51b90?rule=card-desktop-new-small-1x-auto",
+        "price": 50,
+        "location": "Parma (PR)",
+        "link": "https://www.subito.it/abbigliamento-accessori/cinturino-seiko-waffle-parma-487664725.htm"
+    },
+    {
+        "title": "Iphone 12 pro max usato n 3978",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/3f/3fe42472-4216-4e53-a98a-bd866ca9176e?rule=card-desktop-new-small-1x-auto",
+        "price": 650,
+        "location": "Castellammare di Stabia (NA)",
+        "link": "https://www.subito.it/telefonia/iphone-12-pro-max-usato-n-3978-napoli-487664691.htm"
+    },
+    {
+        "title": "Honda NC750X DCT - Full optional",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/9f/9f7364d6-2c03-4c4c-a404-a03d61955104?rule=card-desktop-new-small-1x-auto",
+        "price": 6800,
+        "location": "Cecina (LI)",
+        "link": "https://www.subito.it/moto-e-scooter/honda-nc750x-dct-full-optional-livorno-487664668.htm"
+    },
+    {
+        "title": "Flsun v400 stampante 3d",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/bf/bf2faf4d-d277-4120-8186-31ae2b0f29e0?rule=card-desktop-new-small-1x-auto",
+        "price": 700,
+        "location": "Pontremoli (MS)",
+        "link": "https://www.subito.it/informatica/flsun-v400-stampante-3d-massa-carrara-487664654.htm"
+    },
+    {
+        "title": "Impianto 5.1",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/e2/e26b5a29-8694-44bd-bda5-7a811d88932f?rule=card-desktop-new-small-1x-auto",
+        "price": 70,
+        "location": "Cagliari (CA)",
+        "link": "https://www.subito.it/accessori-auto/impianto-5-1-cagliari-487664636.htm"
+    },
+    {
+        "title": "Processore Intel i7-4790k 4.0ghz lga 1150",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/b3/b3a6f5c2-0fa2-41f2-a520-fc41c70a0ff8?rule=card-desktop-new-small-1x-auto",
+        "price": 120,
+        "location": "Savignano sul Rubicone (FC)",
+        "link": "https://www.subito.it/informatica/processore-intel-i7-4790k-4-0ghz-lga-1150-forli-cesena-487656997.htm"
+    },
+    {
+        "title": "Cuadro da casa",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/21/21cc7971-f068-46a2-bcea-cf1ac4a3bf5b?rule=card-desktop-new-small-1x-auto",
+        "price": 300,
+        "location": "Canosa di Puglia (BT)",
+        "link": "https://www.subito.it/arredamento-casalinghi/cuadro-da-casa-barletta-andria-trani-487664526.htm"
+    },
+    {
+        "title": "Bmw 318Ci (2.0) cat Cabrio M-sport",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/c6/c6df0130-a67e-4c14-8fce-95a860302de8?rule=card-desktop-new-small-1x-auto",
+        "price": 12500,
+        "location": "Legnago (VR)",
+        "link": "https://www.subito.it/auto/bmw-318ci-2-0-cat-cabrio-m-sport-verona-487664494.htm"
+    },
+    {
+        "title": "Mazda Mazda3 3 5p 2.0 m-hybrid Executive 122cv",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/05/050a9e3a-734d-4e73-bdb1-4357cd4c7a9f?rule=card-desktop-new-small-1x-auto",
+        "price": 20500,
+        "location": "Roma (RM)",
+        "link": "https://www.subito.it/auto/mazda-mazda3-3-5p-2-0-m-hybrid-executive-122cv-roma-481715581.htm"
+    },
+    {
+        "title": "Mercedes Classe B (T246/242) - B 200 d Automatic S",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/25/25b34a74-7cd9-4dd2-9848-8511ad4e7a14?rule=card-desktop-new-small-1x-auto",
+        "price": 24900,
+        "location": "Massa (MS)",
+        "link": "https://www.subito.it/auto/mercedes-classe-b-t246-242-b-200-d-automatic-s-massa-carrara-462180979.htm"
+    },
+    {
+        "title": "SEAT Leon 1.6 TDI 115CV ST STYLE",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/46/46ff526b-79fd-4bf6-a56a-df1b8d42fb86?rule=card-desktop-new-small-1x-auto",
+        "price": 18900,
+        "location": "Brescia (BS)",
+        "link": "https://www.subito.it/auto/seat-leon-1-6-tdi-115cv-st-style-brescia-464838050.htm"
+    },
+    {
+        "title": "Ford Ka Ka+ 1.2 8V 69 CV Bz.-GPL",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/af/af6eed4a-32e5-4038-b6e3-339d6fe5a0ba?rule=card-desktop-new-small-1x-auto",
+        "price": 7900,
+        "location": "Roma (RM)",
+        "link": "https://www.subito.it/auto/ford-ka-ka-1-2-8v-69-cv-bz-gpl-roma-487664403.htm"
+    },
+    {
+        "title": "Sollevatore notebook",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/74/7423790d-158d-47e0-84da-26868f9eeb08?rule=card-desktop-new-small-1x-auto",
+        "price": 20,
+        "location": "Palermo (PA)",
+        "link": "https://www.subito.it/informatica/sollevatore-notebook-palermo-389701879.htm"
+    },
+    {
+        "title": "Casa Singola / Locale Commerciale-doppia soluzione",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/19/19443084-28aa-43c8-aee1-62b2f6004096?rule=card-desktop-new-small-1x-auto",
+        "price": 65000,
+        "location": "Giarre (CT)",
+        "link": "https://www.subito.it/appartamenti/casa-singola-locale-commerciale-doppia-soluzione-catania-487397628.htm"
+    },
+    {
+        "title": "Piaggio Medley 150 ABS",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/79/798ed968-01b5-4027-bb46-f3c1ceb795a6?rule=card-desktop-new-small-1x-auto",
+        "price": 2850,
+        "location": "Schio (VI)",
+        "link": "https://www.subito.it/moto-e-scooter/piaggio-medley-150-abs-vicenza-486849529.htm"
+    },
+    {
+        "title": "Kymco Xciting 500",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/17/171c6173-57aa-4675-be7a-62c4d53497ba?rule=card-desktop-new-small-1x-auto",
+        "price": 1500,
+        "location": "Modena (MO)",
+        "link": "https://www.subito.it/moto-e-scooter/kymco-xciting-500-modena-487664273.htm"
+    },
+    {
+        "title": "Interruttori luce n. 6 nuovi wifi domotici Alexa",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/31/31daaeaa-5410-4d0a-8208-0da30ed27150?rule=card-desktop-new-small-1x-auto",
+        "price": 13,
+        "location": "Mesero (MI)",
+        "link": "https://www.subito.it/arredamento-casalinghi/interruttori-luce-n-6-nuovi-wifi-domotici-alexa-milano-487664182.htm"
+    },
+    {
+        "title": "Poltrona letto maison du monde",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/52/522e1281-70d9-42d3-b82a-814e8c95da5e?rule=card-desktop-new-small-1x-auto",
+        "price": 100,
+        "location": "Aversa (CE)",
+        "link": "https://www.subito.it/arredamento-casalinghi/poltrona-letto-maison-du-monde-caserta-487664076.htm"
+    },
+    {
+        "title": "Nintendo switch oled nuova",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/93/93d1fca6-8de3-4eb4-b8d5-145f7638047b?rule=card-desktop-new-small-1x-auto",
+        "price": 300,
+        "location": "Castellammare di Stabia (NA)",
+        "link": "https://www.subito.it/videogiochi/nintendo-switch-oled-nuova-napoli-487664019.htm"
+    },
+    {
+        "title": "Trilocale piano terra con giardino",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/63/63d5d375-ccda-4427-a2c5-f0582c0c89b1?rule=card-desktop-new-small-1x-auto",
+        "price": 130000,
+        "location": "Pontedera (PI)",
+        "link": "https://www.subito.it/appartamenti/trilocale-piano-terra-con-giardino-pisa-487664008.htm"
+    },
+    {
+        "title": "Bandiera Napoli per terzo scudetto 100x150",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/d2/d2eda23b-cd1a-4d5e-949f-9d7ee2ac2767?rule=card-desktop-new-small-1x-auto",
+        "price": 10,
+        "location": "Volla (NA)",
+        "link": "https://www.subito.it/sport/bandiera-napoli-per-terzo-scudetto-100x150-napoli-487664005.htm"
+    },
+    {
+        "title": "Air pods 3",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/39/398859e5-b708-4150-9b31-05d52e3e66f8?rule=card-desktop-new-small-1x-auto",
+        "price": 180,
+        "location": "Castellammare di Stabia (NA)",
+        "link": "https://www.subito.it/audio-video/air-pods-3-napoli-487663967.htm"
+    },
+    {
+        "title": "Cuffie da gaming",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/e6/e6fc83fe-8945-4e4d-865b-d6d6cdf20280?rule=card-desktop-new-small-1x-auto",
+        "price": 30,
+        "location": "Castellammare di Stabia (NA)",
+        "link": "https://www.subito.it/audio-video/cuffie-da-gaming-napoli-487663958.htm"
+    },
+    {
+        "title": "Armadio e comodini per cambio casa",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/12/1255bd75-dfb0-4470-95b1-6c5501b4eaac?rule=card-desktop-new-small-1x-auto",
+        "price": 500,
+        "location": "Maddaloni (CE)",
+        "link": "https://www.subito.it/arredamento-casalinghi/armadio-e-comodini-per-cambio-casa-caserta-487663949.htm"
+    },
+    {
+        "title": "Possibile permuta",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/60/603c3561-e9a3-45de-8915-69626bd5a782?rule=card-desktop-new-small-1x-auto",
+        "price": 198000,
+        "location": "Pordenone (PN)",
+        "link": "https://www.subito.it/appartamenti/possibile-permuta-pordenone-487663944.htm"
+    },
+    {
+        "title": "Set plafoniere e luci casa",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/3d/3db2081d-978a-47e9-95b0-99f59eee9ae7?rule=card-desktop-new-small-1x-auto",
+        "price": 40,
+        "location": "Milano (MI)",
+        "link": "https://www.subito.it/arredamento-casalinghi/set-plafoniere-e-luci-casa-milano-405493703.htm"
+    },
+    {
+        "title": "CASSETTA ATTREZZI 85 PEZZI set",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/1a/1ab8640e-e7ae-4192-8ed6-9d58e6e0a868?rule=card-desktop-new-small-1x-auto",
+        "price": 110,
+        "location": "La Spezia (SP)",
+        "link": "https://www.subito.it/giardino-fai-da-te/cassetta-attrezzi-85-pezzi-set-la-spezia-487663882.htm"
+    },
+    {
+        "title": "Lampada da ufficio nuova",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/f0/f0fe1058-8ea1-4101-b2a8-555044302be0?rule=card-desktop-new-small-1x-auto",
+        "price": 15,
+        "location": "Bertiolo (UD)",
+        "link": "https://www.subito.it/arredamento-casalinghi/lampada-da-ufficio-nuova-udine-487663761.htm"
+    },
+    {
+        "title": "Akai smartwatch",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/e1/e1cda7e8-02c4-426d-a95d-2f207c6ccfe9?rule=card-desktop-new-small-1x-auto",
+        "price": 15,
+        "location": "San Prisco (CE)",
+        "link": "https://www.subito.it/abbigliamento-accessori/akai-smartwatch-caserta-487663759.htm"
+    },
+    {
+        "title": "CASSETTA ATTREZZI 85 PEZZI set",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/9e/9eabbe7b-36e0-4579-9349-c3bdbddc4a13?rule=card-desktop-new-small-1x-auto",
+        "price": 110,
+        "location": "Milano (MI)",
+        "link": "https://www.subito.it/giardino-fai-da-te/cassetta-attrezzi-85-pezzi-set-milano-487663660.htm"
+    },
+    {
+        "title": "Kettlebell Russian Black 16 kg Lacertosus",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/50/5052e661-24e5-4310-9461-535a97996831?rule=card-desktop-new-small-1x-auto",
+        "price": 60,
+        "location": "Mira (VE)",
+        "link": "https://www.subito.it/sport/kettlebell-russian-black-16-kg-lacertosus-venezia-487663654.htm"
+    },
+    {
+        "title": "Pc da Gaming i5 8600K , 32 Gb Ram",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/4c/4c2cd8c3-1f8c-4231-b68a-45a995e231c3?rule=card-desktop-new-small-1x-auto",
+        "price": 600,
+        "location": "Ardea (RM)",
+        "link": "https://www.subito.it/informatica/pc-da-gaming-i5-8600k-32-gb-ram-roma-487663573.htm"
+    },
+    {
+        "title": "Cassetta attrezzi",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/5c/5cdee3f5-3b06-4ec6-9098-2f852f9254b2?rule=card-desktop-new-small-1x-auto",
+        "price": 110,
+        "location": "Roma (RM)",
+        "link": "https://www.subito.it/giardino-fai-da-te/cassetta-attrezzi-roma-487663502.htm"
+    },
+    {
+        "title": "Casa indipendente",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/79/7912217c-7788-4c49-ad8c-840a30d161ae?rule=card-desktop-new-small-1x-auto",
+        "price": 125000,
+        "location": "Riolo Terme (RA)",
+        "link": "https://www.subito.it/ville-singole-e-a-schiera/casa-indipendente-ravenna-467666843.htm"
+    },
+    {
+        "title": "CASCO BICICLETTA CRATONI AKINO 49-53 cm LUCE LED",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/c0/c0952a3b-8265-4e15-94c4-a32cf0cda5b5?rule=card-desktop-new-small-1x-auto",
+        "price": 15,
+        "location": "Rimini (RN)",
+        "link": "https://www.subito.it/biciclette/casco-bicicletta-cratoni-akino-49-53-cm-luce-led-rimini-423180537.htm"
+    },
+    {
+        "title": "Monitor Gaming 49\" Asus Rog Strix NUOVO",
+        "imgSrc": "https://images.sbito.it/api/v1/sbt-ads-images-pro/images/50/503a69c9-054d-4627-84ac-23f8c71d3b65?rule=card-desktop-new-small-1x-auto",
+        "price": 660,
+        "location": "Bologna (BO)",
+        "link": "https://www.subito.it/informatica/monitor-gaming-49-asus-rog-strix-nuovo-bologna-485813434.htm"
     }
 ]
