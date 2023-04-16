@@ -2,24 +2,28 @@ import requests
 import re
 import json
 from bs4 import BeautifulSoup, Tag
-import os.path
+import os
 from pathlib import Path
 
 queries = []
-database = "searches.json"
+database = "client\searches.json"
 
 scheme = "https://"
 baseUrl = "www.subito.it"
 
 #SAVE QUERIES TO JSON
 def storeQueries():
-    
     with open(database, "w") as file:
         file.write(json.dumps(queries, indent = 4))
 
+#RESET SEARCHES.JSON
+def resetQueries():
+    queries.clear()
+    open(database, "w").close()
+
 # URL BUILDER
 
-location = ["italia", "abruzzo", "basilicata", "calabria", "campania", "emilia-romagna", 
+regions = ["italia", "abruzzo", "basilicata", "calabria", "campania", "emilia-romagna", 
             "friuli venezia giulia", "lazio", "liguria", "lombardia", "marche", "molise",
             "piemonte", "puglia", "sardegna","sicilia", "toscana", "trentino alto adige",
             "umbria", "valle d'aosta", "veneto",
@@ -27,16 +31,19 @@ location = ["italia", "abruzzo", "basilicata", "calabria", "campania", "emilia-r
 
 category = "/vendita/usato"
 
-def buildUrl(q, pageNum):
+def buildUrl(q, pageNum, region, boolNear):
 
     q = q.replace(" ", "+")
     query = "/?q=" + q
+    
+    if boolNear:
+        return (scheme + baseUrl + "/annunci-" + region + "-vicino" + category + query + "&o=" + str(pageNum))
 
-    return (scheme + baseUrl + "/annunci-" + location[0] + category + query + "&o=" + str(pageNum))
+    return (scheme + baseUrl + "/annunci-" + region + category + query + "&o=" + str(pageNum))
 
 #RUN A SINGLE QUERY
 def scanPage(url, minPrice, maxPrice):
-
+    
     page = requests.get(url)
     soup = BeautifulSoup(page.text, 'html.parser')
 
@@ -62,24 +69,47 @@ def scanPage(url, minPrice, maxPrice):
             print("Unknown location for item %s" % (title))
             location = "Unknown location"
 
-        if minPrice == "null" or price == "Unknown price" or price >= int(maxPrice) or maxPrice == "null" or price <= int(minPrice):
-            print("Not available")
-        else:
-            queries.append({"title" : title, "price" : price, "location" : location, "link" : link})    
+
+         
+        queries.append({"title" : title, "price" : price, "location" : location, "link" : link})    
         
     storeQueries()
 
 
 
-def search(query, numOfPages, minPrice, maxPrice):
+def search(query, numOfPages, region, minPrice, maxPrice):
     urls = []
+    boolVicino = False #To implement
+    
+    resetQueries()
 
-    for num in range(1, numOfPages + 1):
-        urls.append(buildUrl(query, num))
+    for num in range(0, numOfPages):
+        urls.append(buildUrl(query, num, region, boolVicino))
     
     for url in urls:
         scanPage(url, minPrice, maxPrice)
+  
+ 
+ 
+ 
+ 
+ 
+   
 
+def getProvince(region):
+    siglaProvinceRegione = []
+    
+    with open('core\province-italia.json') as data:
+        provinceItalia = json.load(data)   
+    
+    for item in provinceItalia:
+        if(item.get("regione") == region):
+            siglaProvinceRegione.append(item.get("sigla"))
+
+    print(siglaProvinceRegione)
+    
+    return siglaProvinceRegione
     
 
-search("iphone 14", 2, 0, 1800)
+def filterByProvince(province, region):
+    provinceRegione = getProvince(region)

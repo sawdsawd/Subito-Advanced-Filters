@@ -7,7 +7,13 @@
       
       <body>
         <h1 id="myele">Subito Advanced Search</h1>
-        <input id="query"></input>
+        <input id="query" placeholder="Search"></input>
+        <label>Number of pages to scan:</label>
+        <input id="numOfPages" value="1" type="number" min="0" step="1"></input>
+        <input id="minPrice" value="null" placeholder="Minumum price:" type="number" min="0" step="1"></input>
+        <input id="maxPrice" value="null" placeholder="Maximum price:" type="number" min="0" step="1"></input>
+        <select id="region"></select> 
+        
         <button id="btn">Search</button>
 
         <table>
@@ -15,8 +21,8 @@
             <tr>
               <th>Titolo</th>
               <th>Prezzo</th>
-              <th>Località</th>
               <th>Link</th>
+              <th>Località</th>
             </tr>
           </thead>
           <tbody id="data-output">
