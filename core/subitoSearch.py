@@ -41,6 +41,27 @@ def buildUrl(q, pageNum, region, boolNear):
 
     return (scheme + baseUrl + "/annunci-" + region + category + query + "&o=" + str(pageNum))
 
+def filterByPrice(min, max):
+    
+    if(min is None):
+        print("No minPrice")
+    elif(min is not None):
+        for product in queries:
+            if(str(product.get("price")) == "Unknown price"):
+                print("removing: ", product.get("title"), "unknown")
+                queries.remove(product)
+            elif(min > (product.get("price"))):
+                print("removing: ", product.get("title"), product.get("price"))
+                queries.remove(product)
+                
+    if(max is None):
+        print("No maxPrice")
+    elif(max is not None):
+        for product in queries:
+            print("not relevant")
+            # if(max < int(product.get("price"))):
+            #     queries.pop(product)
+
 #RUN A SINGLE QUERY
 def scanPage(url, minPrice, maxPrice):
     
@@ -68,10 +89,20 @@ def scanPage(url, minPrice, maxPrice):
         except:
             print("Unknown location for item %s" % (title))
             location = "Unknown location"
-
-
-         
-        queries.append({"title" : title, "price" : price, "location" : location, "link" : link})    
+            
+        if (price == "Unknown price" and (minPrice or maxPrice)):
+            print("removing: ", title)
+        elif minPrice is not None and maxPrice is not None:
+            if((int(price) < maxPrice and int(price) > minPrice)):
+                queries.append({"title" : title, "price" : price, "location" : location, "link" : link})
+        elif minPrice is not None and maxPrice is None:  
+            if(int(price) > minPrice):
+                queries.append({"title" : title, "price" : price, "location" : location, "link" : link})
+        elif maxPrice is not None and minPrice is None:
+            if(int(price) < (maxPrice)):
+                queries.append({"title" : title, "price" : price, "location" : location, "link" : link})
+        else:
+            queries.append({"title" : title, "price" : price, "location" : location, "link" : link})
         
     storeQueries()
 
@@ -105,8 +136,6 @@ def getProvince(region):
     for item in provinceItalia:
         if(item.get("regione") == region):
             siglaProvinceRegione.append(item.get("sigla"))
-
-    print(siglaProvinceRegione)
     
     return siglaProvinceRegione
     
