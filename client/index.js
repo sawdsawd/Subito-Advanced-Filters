@@ -35,6 +35,7 @@ function loadData(){
          for(let product of products){
             out += `
                <tr>
+                  <td><img src="${product.imgSrc}" width="100" height="100"></img></td>
                   <td>${product.title}</td>
                   <td>${product.price}</td>
                   <td><a href=${product.link} target="_blank" rel="noopener noreferral">${product.link}</a></td>

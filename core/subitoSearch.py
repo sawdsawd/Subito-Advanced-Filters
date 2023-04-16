@@ -41,37 +41,20 @@ def buildUrl(q, pageNum, region, boolNear):
 
     return (scheme + baseUrl + "/annunci-" + region + category + query + "&o=" + str(pageNum))
 
-def filterByPrice(min, max):
-    
-    if(min is None):
-        print("No minPrice")
-    elif(min is not None):
-        for product in queries:
-            if(str(product.get("price")) == "Unknown price"):
-                print("removing: ", product.get("title"), "unknown")
-                queries.remove(product)
-            elif(min > (product.get("price"))):
-                print("removing: ", product.get("title"), product.get("price"))
-                queries.remove(product)
-                
-    if(max is None):
-        print("No maxPrice")
-    elif(max is not None):
-        for product in queries:
-            print("not relevant")
-            # if(max < int(product.get("price"))):
-            #     queries.pop(product)
-
 #RUN A SINGLE QUERY
 def scanPage(url, minPrice, maxPrice):
     
     page = requests.get(url)
     soup = BeautifulSoup(page.text, 'html.parser')
 
-    product_list_items = soup.find_all("div", class_=re.compile(r"item-key-data"))
+    product_list_items = soup.find_all("div", class_=re.compile(r"picture-group"))
+
+    
 
     for product in product_list_items:
         title = product.find("h2").string
+
+        imgSrc = product.find("div", class_=re.compile(r"item-picture")).find("img")["src"]
 
         try:
             price = product.find("p", class_=re.compile(r"price")).contents[0]
@@ -82,27 +65,28 @@ def scanPage(url, minPrice, maxPrice):
         except:
             price = "Unknown price"
 
-        link = product.parent.parent.parent.parent.get('href')
+        link = product.parent.parent.get('href')
 
         try:
             location = product.find('span',re.compile(r'town')).string + product.find('span',re.compile(r'city')).string
         except:
             print("Unknown location for item %s" % (title))
             location = "Unknown location"
-            
+
+        #TO IMPROVE  
         if (price == "Unknown price" and (minPrice or maxPrice)):
             print("removing: ", title)
         elif minPrice is not None and maxPrice is not None:
             if((int(price) < maxPrice and int(price) > minPrice)):
-                queries.append({"title" : title, "price" : price, "location" : location, "link" : link})
+                queries.append({"title" : title, "imgSrc" : imgSrc, "price" : price, "location" : location, "link" : link})
         elif minPrice is not None and maxPrice is None:  
             if(int(price) > minPrice):
-                queries.append({"title" : title, "price" : price, "location" : location, "link" : link})
+                queries.append({"title" : title, "imgSrc" : imgSrc, "price" : price, "location" : location, "link" : link})
         elif maxPrice is not None and minPrice is None:
             if(int(price) < (maxPrice)):
-                queries.append({"title" : title, "price" : price, "location" : location, "link" : link})
+                queries.append({"title" : title, "imgSrc" : imgSrc, "price" : price, "location" : location, "link" : link})
         else:
-            queries.append({"title" : title, "price" : price, "location" : location, "link" : link})
+            queries.append({"title" : title, "imgSrc" : imgSrc, "price" : price, "location" : location, "link" : link})
         
     storeQueries()
 
