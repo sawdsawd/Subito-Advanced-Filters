@@ -70,12 +70,26 @@ label{
 
 table{
   margin: 50px auto;
+  border-collapse:separate;
+  border-spacing: 0 2em;
 }
 
 tbody tr{
   background-color:#f1f1f1;
+  border-radius: 40px;
+  box-shadow: 0px 5px 14px 5px rgba(0,0,0,0.11); 
 }
 
 .clickable-row{
   cursor: pointer;
+}
+
+td:first-child,
+th:first-child {
+  border-radius: 10px 0 0 10px;
+}
+
+td:last-child,
+th:last-child {
+  border-radius: 0 10px 10px 0;
 }

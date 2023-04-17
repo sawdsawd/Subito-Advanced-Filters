@@ -22,7 +22,6 @@ def resetQueries():
     open(database, "w").close()
 
 # URL BUILDER
-
 regions = ["italia", "abruzzo", "basilicata", "calabria", "campania", "emilia-romagna", 
             "friuli venezia giulia", "lazio", "liguria", "lombardia", "marche", "molise",
             "piemonte", "puglia", "sardegna","sicilia", "toscana", "trentino alto adige",
@@ -89,7 +88,7 @@ def scanPage(url, minPrice, maxPrice):
     storeQueries()
 
 
-
+#START NEW SEARCH
 def search(query, numOfPages, region, minPrice, maxPrice, boolNear = False):
     urls = []
     

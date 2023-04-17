@@ -33,7 +33,7 @@ document.getElementById("btn").addEventListener("click", () => {
 )
 
 $(document).on('click', '.clickable-row', function() {
-   window.open($(this).data("url"), "_blank"); 
+   window.open($(this).data("url"), "_blank", "noopener noreferrer"); 
 });
 
 function loadData(){
