@@ -32,6 +32,10 @@ document.getElementById("btn").addEventListener("click", () => {
 }
 )
 
+$(document).on('click', '.clickable-row', function() {
+   window.open($(this).data("url"), "_blank"); 
+});
+
 function loadData(){
    if("searches.json"){
       fetch("searches.json")
@@ -43,11 +47,10 @@ function loadData(){
          let out = "";
          for(let product of products){
             out += `
-               <tr>
-                  <td><img src="${product.imgSrc}" width="100" height="100"></img></td>
+               <tr class="clickable-row" data-url="${product.link}">
+                  <td><img src="${product.imgSrc}" width="200" height="200"></img></td>
                   <td>${product.title}</td>
                   <td>${product.price}</td>
-                  <td><a href=${product.link} target="_blank" rel="noopener noreferral">${product.link}</a></td>
                   <td>${product.location}</td>
                </tr>
             `;
@@ -63,6 +66,3 @@ function loadData(){
 
 
 loadData()
-
-
-
