@@ -12,13 +12,22 @@ for(var i = 0; i < regions.length; i++) {
     select.appendChild(el);
 }
 
+$("#region").change(function () {
+   if ($(this).val() == regions[0]) {
+     $('#near').hide();
+   } else {
+     $("#near").show();
+   }
+ }).change()
+
 document.getElementById("btn").addEventListener("click", () => {
    query = (document.getElementById("query").value)
    numOfPages = parseInt(document.getElementById("numOfPages").value)
    minPrice = parseInt(document.getElementById("minPrice").value)
    maxPrice = parseInt(document.getElementById("maxPrice").value)
    region = (document.getElementById("region").value)
-   eel.newSearch(query, numOfPages , region, minPrice, maxPrice)
+   boolNear = (document.getElementById("nearby-regions").checked)
+   eel.newSearch(query, numOfPages , region, minPrice, maxPrice, boolNear)
    loadData();
 }
 )

@@ -90,14 +90,16 @@ def scanPage(url, minPrice, maxPrice):
 
 
 
-def search(query, numOfPages, region, minPrice, maxPrice):
+def search(query, numOfPages, region, minPrice, maxPrice, boolNear = False):
     urls = []
-    boolVicino = False #To implement
     
     resetQueries()
 
+    if(region == regions[0]):
+        boolNear = False
+
     for num in range(1, numOfPages + 1):
-        urls.append(buildUrl(query, num, region, boolVicino))
+        urls.append(buildUrl(query, num, region, boolNear))
     
     for url in urls:
         scanPage(url, minPrice, maxPrice)
