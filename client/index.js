@@ -20,7 +20,7 @@ $("#region").change(function () {
    }
  }).change()
 
-document.getElementById("btn").addEventListener("click", () => {
+ function search(){
    query = (document.getElementById("query").value)
    numOfPages = parseInt(document.getElementById("numOfPages").value)
    minPrice = parseInt(document.getElementById("minPrice").value)
@@ -29,6 +29,16 @@ document.getElementById("btn").addEventListener("click", () => {
    boolNear = (document.getElementById("nearby-regions").checked)
    eel.newSearch(query, numOfPages , region, minPrice, maxPrice, boolNear)
    loadData();
+ }
+
+ $("#query").on('keyup', function (e) {
+   if (e.key === 'Enter' || e.keyCode === 13) {
+      search()
+   }
+});
+
+document.getElementById("btn").addEventListener("click", () => {
+   search()
 }
 )
 
