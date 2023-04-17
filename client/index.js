@@ -48,7 +48,7 @@ function loadData(){
          for(let product of products){
             out += `
                <tr class="clickable-row" data-url="${product.link}">
-                  <td><img src="${product.imgSrc}" width="200" height="200"></img></td>
+                  <td><img src="${product.imgSrc}" width="150" height="150"></img></td>
                   <td>${product.title}</td>
                   <td>${product.price}</td>
                   <td>${product.location}</td>
