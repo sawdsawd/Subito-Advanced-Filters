@@ -39,8 +39,7 @@ $("#region").change(function () {
 
 document.getElementById("btn").addEventListener("click", () => {
    search()
-}
-)
+})
 
 $(document).on('click', '.clickable-row', function() {
    window.open($(this).data("url"), "_blank", "noopener noreferrer"); 
@@ -74,5 +73,23 @@ function loadData(){
    }
 }
 
+// function sortDataByPrice(){
+//    if("searches.json"){
+//       fetch("searches.json")
+//       .then(function(response){
+//          return response.json()
+//       }).then( products => {
+//          const sortedData = products.sort(function (a, b) {
+//             return a.price - b.price;
+//          })
+//          console.log(sortedData)
+//       })
+//    }
+// }
+
+// document.getElementById("sort").addEventListener("click", () => {
+//    sortDataByPrice()
+//    loadData()
+// })
 
 loadData()
