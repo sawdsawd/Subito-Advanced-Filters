@@ -12,7 +12,7 @@ body{
 }
 
 form{
-  max-width: 50%;
+  max-width: 60%;
   margin: 0 auto;
 }
 
@@ -65,7 +65,7 @@ label{
 
 #near{
   align-items: center;
-  margin: 10px
+  margin: 10px;
 }
 
 table{

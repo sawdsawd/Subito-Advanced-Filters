@@ -13,14 +13,19 @@
           <input id="query" placeholder="Search"></input>
           <label for="numOfPages">Number of pages to scan:</label>
           <input id="numOfPages" value="1" type="number" min="0" step="1" max="100"></input>
-          <input id="minPrice" value="null" placeholder="Minumum price:" type="number" min="0" step="1"></input>
-          <input id="maxPrice" value="null" placeholder="Maximum price:" type="number" min="0" step="1"></input>
+          <label for="region">Region:</label>
           <select id="region"></select>
           
           <div id="near">
             <label>Regioni Vicine: </label>
             <input id="nearby-regions" type="checkbox"></input>
           </div>
+          
+          <input id="minPrice" value="null" placeholder="Minumum price:" type="number" min="0" step="1"></input>
+          <input id="maxPrice" value="null" placeholder="Maximum price:" type="number" min="0" step="1"></input>
+          
+          
+          
 
           <button id="btn" type="button">Search</button>
         </form>
