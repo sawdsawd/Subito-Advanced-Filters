@@ -69,21 +69,6 @@ def scanPage(url, minPrice, maxPrice):
             print("Unknown location for item %s" % (title))
             location = "Unknown location"
 
-        #TO IMPROVE  
-        # if (price == "Unknown price" and (minPrice or maxPrice)):
-        #     print("removing: ", title)
-        # elif minPrice is not None and maxPrice is not None:
-        #     if((int(price) < maxPrice and int(price) > minPrice)):
-        #         queries.append({"title" : title, "imgSrc" : imgSrc, "price" : price, "location" : location, "link" : link})
-        # elif minPrice is not None and maxPrice is None:  
-        #     if(int(price) > minPrice):
-        #         queries.append({"title" : title, "imgSrc" : imgSrc, "price" : price, "location" : location, "link" : link})
-        # elif maxPrice is not None and minPrice is None:
-        #     if(int(price) < (maxPrice)):
-        #         queries.append({"title" : title, "imgSrc" : imgSrc, "price" : price, "location" : location, "link" : link})
-        # else:
-        #     queries.append({"title" : title, "imgSrc" : imgSrc, "price" : price, "location" : location, "link" : link})
-        
         if price == "Unknown price" and (minPrice or maxPrice):
             print("removing:", title)
         elif (minPrice is None or int(price) > minPrice) and (maxPrice is None or int(price) < maxPrice):
