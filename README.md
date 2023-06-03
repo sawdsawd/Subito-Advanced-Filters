@@ -12,6 +12,10 @@ Features:
 
 ## Setup
 
+### Requirements
+
+The app requires Python to run
+
 ### Install Dependencies
 
 ```pip3 install -r requirements.txt```
@@ -28,7 +32,7 @@ If you have any problem using the GUI please try using another browser.
 
 To close the app just close the system console.
 
-The app lets you scan multiple pages at once, a very useful feature, please use it carefully as it may take too much time or could get the site to think you are a bot. I reccomend using maximu 50 pages, ideally less then 20 per search.
+The app lets you scan multiple pages at once, a very useful feature, please use it carefully as it may take too much time or could get the site to think you are a bot. I reccomend using maximum 50 pages, ideally less then 20 per search.
 
 The results of your last query will be saved in ```searches.json```, inside the client folder.
 If you need the raw outputs, you can find them there and maybe use another software to filter them based on your needs.
