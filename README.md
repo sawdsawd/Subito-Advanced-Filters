@@ -1,6 +1,6 @@
 # Advanced Search Filters for Subito.it
 
-![SubitoAdvancedFilters](https://github.com/sawdsawd/Subito-Advanced-Fitlers/assets/92443986/003ed935-1b9d-44a8-9e05-1f88f6615c0c)
+![SubitoAdvancedFilters](https://github.com/sawdsawd/Subito-Advanced-Fitlers/assets/92443986/7f9137aa-b7ca-400a-a12c-6269587d0957)
 
 Advanced Search Filters for Subito.it is a web scraper for the popular italian ads website.
 
