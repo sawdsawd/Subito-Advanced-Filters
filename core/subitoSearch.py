@@ -2,7 +2,6 @@ import requests
 import re
 import json
 from bs4 import BeautifulSoup, Tag
-import os
 from pathlib import Path
 
 queries = []
