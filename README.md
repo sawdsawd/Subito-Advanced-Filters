@@ -4,6 +4,7 @@ Advanced Search Filters for Subito.it is a web scraper for the popular italian a
 
 Features:
 * Automatic URL builder for your query
+* Multi-page search
 * Price filters
 * Location filters (only by region)
 * Modern web GUI
@@ -11,23 +12,26 @@ Features:
 
 ## Setup
 
-You will need Python to run this app
-
 ### Install Dependencies
 
 ```pip3 install -r requirements.txt```
 
+### Launch
+
+If you are on Windows, you can simply launch the app via ```run.bat```.
+On any other OS you can open your console, navigate to the folder of the app and type ```python main.py```.
+
 ## Usage
 
-The easiest way is to run the .bat file for Windows.
-If you are on another OS you can directly call ```python main.py```.
-
-It will open the web GUI on ```http://localhost:8000/index.html``` using your default browser.
+Once the program loads, it will open the web GUI on ```http://localhost:8000/index.html``` using your default browser.
 If you have any problem using the GUI please try using another browser.
 
 To close the app just close the system console.
 
-The results of the last query will be saved in ```searches.json```, if you need the raw results you can find them there and maybe use another software to filter them based on your needs.
+The app lets you scan multiple pages at once, a very useful feature, please use it carefully as it may take too much time or could get the site to think you are a bot. I reccomend using maximu 50 pages, ideally less then 20 per search.
+
+The results of your last query will be saved in ```searches.json```, inside the client folder.
+If you need the raw outputs, you can find them there and maybe use another software to filter them based on your needs.
 
 ## How it works
 
@@ -40,6 +44,6 @@ Python Eel builds the web GUI and looks at  ```searches.json``` to show the resu
 
 ## Credits
 
-I started from morrolinux's repo and went with a different different approach which is more user-friendly and does not require any particular "skill" in using a computer. I achieved this by creating a function that dynamically generates the url for your query and including price and location filters. I do not include any notification service as it pretty useless unless you are searching for a very specific item that is not put on sale often.
+I started from morrolinux's repo and went with a different different approach which is more intuitive and user-friendly, just a simple GUI instead of typing in the console. I achieved this by creating a function that dynamically generates the url for your query, it then checks the results based on the filters you apply, either price or location. I do not include any notification service as it pretty useless unless you are searching for a very specific item that is not put on sale often.
 
 * https://github.com/morrolinux/subito-it-searcher/
